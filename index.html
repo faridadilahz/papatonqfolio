@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Home - papatonqfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+
+  <body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top z-3 p-3 px-lg-5">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      
+      <!-- 1. KIRI: Logo (Flex basis biar ukurannya tetep) -->
+      <a href="/beranda" class="d-flex align-items-center text-decoration-none">
+        <img
+          src="assets/img/tonqlogowhite.svg"
+          class="me-1"
+          style="max-width: 36px; object-fit: cover"
+        />
+        <p class="navbar-brand fw-bold mb-0">papatonq.</p>
+      </a>
+
+      <!-- Tombol Hamburger Mobile -->
+      <button
+        class="navbar-toggler border-0 shadow-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 2. TENGAH: Menu Navigasi (Flex-grow-1 + justify-content-center) -->
+      <div class="collapse navbar-collapse flex-grow-1 justify-content-center" id="navbarNav">
+        <ul class="navbar-nav text-center my-2 my-lg-0">
+          <li class="nav-item me-lg-4">
+            <a href="/home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item me-lg-4">
+            <a href="/projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item me-lg-4">
+            <a href="/achievements" class="nav-link">Achievements</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 3. KANAN: Penyeimbang (Cuma muncul di Laptop/Desktop) -->
+      <div class="d-none d-lg-block" style="width: 140px;"></div>
+
+    </div>
+  </nav>
+</header>
+    <main style="overflow-x: hidden;">
+      <div
+        class="d-flex align-items-center justify-content-center min-vh-100 bg-white"
+        style="margin-top: 48px !important"
+      >
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center px-3 px-lg-5 text-center text-lg-start">
+          <img
+            src="assets/img/Mask group.png"
+            alt=""
+            class="image-fluid mb-5"
+            style="
+              max-width: 360px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 48px;
+              filter: grayscale(1);
+            "
+          />
+
+          <div class="d-flex flex-column px-5">
+            <h1 class="fw-bold text-primary mb-2">
+              <span class="d-block fs-5 fw-medium text-primary-subtle"
+                >Hi there!</span
+              >
+
+              <span class="d-block fw-bold"
+                >My name is Muhammad Farid Adilah Handi</span
+              >
+            </h1>
+            <span class="text-secondary mb-2">
+              I'm a UI/UX Designer, Application Developer, Website Developer,
+              and Graphic Designer.
+            </span>
+            <div
+              class="d-flex flex-wrap gap-1 justify-content-center justify-content-md-start mb-3"
+            >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >UI/UX Designer</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >Graphic Designer</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >Web Developer</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >Application Developer</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >10+ certificates</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >3 awards</span
+              >
+              <span
+                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
+                >10+ projects</span
+              >
+            </div>
+            <div class="d-flex flex-row justify-content-center justify-content-lg-start">
+              <button class="btn btn-primary fw-semibold me-2">
+                Get In Touch
+              </button>
+
+              <button class="btn btn-outline-primary fw-semibold">
+                Browse Projects
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex align-items-center justify-content-center min-vh-100 bg-primary px-5"
+      >
+        <div class="d-flex flex-column align-items-center text-center">
+          <span
+            class="badge bg-primary-subtle text-primary rounded-pill m-2 d-inline-flex align-items-center gap-2 px-3 py-2 mb-3"
+          >
+            <span
+              class="bg-primary rounded-circle"
+              style="width: 8px; height: 8px; display: inline-block"
+            ></span>
+            About Me
+          </span>
+          <span class="text-white fs-4 px-5"
+            >Hello! my name is Muhammad Farid Adilah Handi, usually called
+            Farid. I'm a vocational high school student with aspirations of
+            becoming a Professional UI/UX Designer, Full-stack Developer,
+            Application Developer, Website Developer, and Graphic Designer. I
+            often participate in both free and paid competitions, haha. I'm a
+            Gen Z looking to break out of my comfort zone.</span
+          >
+        </div>
+      </div>
+
+      <div
+        class="d-flex align-items-center justify-content-center min-vh-100 bg-primary px-5"
+      >
+        <div class="d-flex flex-column align-items-center text-center">
+          <span
+            class="badge bg-primary-subtle text-primary rounded-pill m-2 d-inline-flex align-items-center gap-2 px-3 py-2 mb-3"
+          >
+            <span
+              class="bg-primary rounded-circle"
+              style="width: 8px; height: 8px; display: inline-block"
+            ></span>
+            Projects
+          </span>
+          <span class="text-white fs-4 px-5"
+            >I have some projects that i've been worked on.</span
+          >
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
