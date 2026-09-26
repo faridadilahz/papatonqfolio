@@ -53,3 +53,12 @@ html {
 section {
   scroll-margin-top: 85px;
 }
+
+.navbar-nav .nav-link.active {
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  transition: font-weight 0.2s ease, color 0.2s ease;
+}
