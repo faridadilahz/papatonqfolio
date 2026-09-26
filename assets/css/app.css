@@ -51,3 +51,7 @@
         --bs-nav-pills-link-active-bg: #2563EB;
     }
 }
+
+section {
+    scroll-margin-top: 48px;
+}
