@@ -18,136 +18,137 @@
   </head>
 
   <body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top z-3 p-3 px-lg-5">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-      
-      <!-- 1. KIRI: Logo (Flex basis biar ukurannya tetep) -->
-      <a href="/beranda" class="d-flex align-items-center text-decoration-none">
-        <img
-          src="assets/img/tonqlogowhite.svg"
-          class="me-1"
-          style="max-width: 36px; object-fit: cover"
-        />
-        <p class="navbar-brand fw-bold mb-0">papatonq.</p>
-      </a>
-
-      <!-- Tombol Hamburger Mobile -->
-      <button
-        class="navbar-toggler border-0 shadow-none"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top z-3 p-3 px-lg-5"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <a
+            href="/beranda"
+            class="d-flex align-items-center text-decoration-none"
+          >
+            <img
+              src="assets/img/tonqlogowhite.svg"
+              class="me-1"
+              style="max-width: 36px; object-fit: cover"
+            />
+            <p class="navbar-brand fw-bold mb-0">papatonq.</p>
+          </a>
 
-      <!-- 2. TENGAH: Menu Navigasi (Flex-grow-1 + justify-content-center) -->
-      <div class="collapse navbar-collapse flex-grow-1 justify-content-center" id="navbarNav">
-        <ul class="navbar-nav text-center my-2 my-lg-0">
-          <li class="nav-item me-lg-4">
-            <a href="/home" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item me-lg-4">
-            <a href="/projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item me-lg-4">
-            <a href="/achievements" class="nav-link">Achievements</a>
-          </li>
-        </ul>
-      </div>
+          <button
+            class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- 3. KANAN: Penyeimbang (Cuma muncul di Laptop/Desktop) -->
-      <div class="d-none d-lg-block" style="width: 140px;"></div>
+          <div
+            class="collapse navbar-collapse flex-grow-1 justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-center my-2 my-lg-0">
+              <li class="nav-item me-lg-4">
+                <a href="/home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item me-lg-4">
+                <a href="/projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item me-lg-4">
+                <a href="/achievements" class="nav-link">Achievements</a>
+              </li>
+            </ul>
+          </div>
 
-    </div>
-  </nav>
-</header>
-    <main style="overflow-x: hidden;">
-      <div
-        class="d-flex align-items-center justify-content-center min-vh-100 bg-white"
-        style="margin-top: 48px !important"
+          <div class="d-none d-lg-block" style="width: 140px"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main style="overflow-x: hidden">
+      <section
+        class="d-flex align-items-center justify-content-center min-vh-lg-100 bg-white py-5 mt-5 px-2"
       >
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center px-3 px-lg-5 text-center text-lg-start">
-          <img
-            src="assets/img/Mask group.png"
-            alt=""
-            class="image-fluid mb-5"
-            style="
-              max-width: 360px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              margin-left: 48px;
-              filter: grayscale(1);
-            "
-          />
-
-          <div class="d-flex flex-column px-5">
-            <h1 class="fw-bold text-primary mb-2">
-              <span class="d-block fs-5 fw-medium text-primary-subtle"
-                >Hi there!</span
-              >
-
-              <span class="d-block fw-bold"
-                >My name is Muhammad Farid Adilah Handi</span
-              >
-            </h1>
-            <span class="text-secondary mb-2">
-              I'm a UI/UX Designer, Application Developer, Website Developer,
-              and Graphic Designer.
-            </span>
-            <div
-              class="d-flex flex-wrap gap-1 justify-content-center justify-content-md-start mb-3"
-            >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >UI/UX Designer</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >Graphic Designer</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >Web Developer</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >Application Developer</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >10+ certificates</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >3 awards</span
-              >
-              <span
-                class="badge bg-secondary-subtle m-1 text-secondary rounded-pill"
-                >10+ projects</span
-              >
+        <div class="container my-auto">
+          <div class="row align-items-center justify-content-center g-4">
+            <div class="col-12 col-lg-5 text-center">
+              <img
+                src="assets/img/Mask group.png"
+                alt="Muhammad Farid"
+                class="img-fluid"
+                style="max-width: 320px; filter: grayscale(1)"
+              />
             </div>
-            <div class="d-flex flex-row justify-content-center justify-content-lg-start">
-              <button class="btn btn-primary fw-semibold me-2">
-                Get In Touch
-              </button>
 
-              <button class="btn btn-outline-primary fw-semibold">
-                Browse Projects
-              </button>
+            <div class="col-12 col-lg-7 text-center text-lg-start">
+              <h1 class="fw-bold text-primary mb-2">
+                <span class="d-block fs-5 fw-medium text-primary-subtle"
+                  >Hi there!</span
+                >
+                <span class="d-block fw-bold"
+                  >My name is Muhammad Farid Adilah Handi</span
+                >
+              </h1>
+              <span class="text-secondary d-block mb-3">
+                I'm a UI/UX Designer, Application Developer, Website Developer,
+                and Graphic Designer.
+              </span>
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-4"
+              >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >UI/UX Designer</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >Graphic Designer</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >Web Developer</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >Application Developer</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >10+ certificates</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >3 awards</span
+                >
+                <span
+                  class="badge bg-secondary-subtle text-secondary rounded-pill"
+                  >10+ projects</span
+                >
+              </div>
+              <div
+                class="d-flex flex-row justify-content-center justify-content-lg-start"
+              >
+                <button class="btn btn-primary fw-semibold me-2">
+                  Get In Touch
+                </button>
+                <button class="btn btn-outline-primary fw-semibold">
+                  Browse Projects
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
-        class="d-flex align-items-center justify-content-center min-vh-100 bg-primary px-5"
+      <section
+        class="d-flex align-items-center justify-content-center min-vh-100 bg-primary px-3 px-md-5 py-5"
       >
-        <div class="d-flex flex-column align-items-center text-center">
+        <div class="container text-center">
           <span
-            class="badge bg-primary-subtle text-primary rounded-pill m-2 d-inline-flex align-items-center gap-2 px-3 py-2 mb-3"
+            class="badge bg-primary-subtle text-primary rounded-pill d-inline-flex align-items-center gap-2 px-3 py-2 mb-4"
           >
             <span
               class="bg-primary rounded-circle"
@@ -155,39 +156,183 @@
             ></span>
             About Me
           </span>
-          <span class="text-white fs-4 px-5"
-            >Hello! my name is Muhammad Farid Adilah Handi, usually called
-            Farid. I'm a vocational high school student with aspirations of
-            becoming a Professional UI/UX Designer, Full-stack Developer,
-            Application Developer, Website Developer, and Graphic Designer. I
-            often participate in both free and paid competitions, haha. I'm a
-            Gen Z looking to break out of my comfort zone.</span
-          >
+          <p class="text-white fs-4 mx-auto mb-0" style="max-width: 850px">
+            Hello! my name is Muhammad Farid Adilah Handi, usually called Farid.
+            I'm a vocational high school student with aspirations of becoming a
+            Professional UI/UX Designer, Full-stack Developer, Application
+            Developer, Website Developer, and Graphic Designer. I often
+            participate in both free and paid competitions, haha. I'm a Gen Z
+            looking to break out of my comfort zone.
+          </p>
         </div>
-      </div>
+      </section>
 
-      <div
-        class="d-flex align-items-center justify-content-center min-vh-100 bg-primary px-5"
-      >
-        <div class="d-flex flex-column align-items-center text-center">
-          <span
-            class="badge bg-primary-subtle text-primary rounded-pill m-2 d-inline-flex align-items-center gap-2 px-3 py-2 mb-3"
-          >
+      <section class="py-5 px-3 px-md-5" style="background-color: #f5f5f5">
+        <div class="container">
+          <div class="text-center mb-5">
             <span
-              class="bg-primary rounded-circle"
-              style="width: 8px; height: 8px; display: inline-block"
-            ></span>
-            Projects
-          </span>
-          <span class="text-white fs-4 px-5"
-            >I have some projects that i've been worked on.</span
+              class="badge bg-primary-subtle text-primary rounded-pill d-inline-flex align-items-center gap-2 px-3 py-2 mb-3"
+            >
+              <span
+                class="bg-primary rounded-circle"
+                style="width: 8px; height: 8px; display: inline-block"
+              ></span>
+              Projects
+            </span>
+            <h3 class="text-primary fw-bold">
+              I have some projects that I've worked on.
+            </h3>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+            id="projects-container"
           >
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                <img
+                  src="assets/img/fitplus.png"
+                  class="card-img-top"
+                  alt="Project Preview"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column p-3">
+                  <div class="mb-2 d-flex flex-wrap gap-2">
+                    <span
+                      class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle rounded-pill"
+                    >
+                      🏆 2nd Winner
+                    </span>
+                    <span
+                      class="badge bg-primary-subtle text-primary rounded-pill"
+                      >UI/UX</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >Figma</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >Team Project</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >Team Lead</span
+                    >
+                  </div>
+                  <h5 class="card-title fw-bold text-dark">FitPlus</h5>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    A health tracking site to keep your body and lifestyle
+                    healthy.
+                  </p>
+                  <a href="#" class="btn btn-primary fw-semibold">
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                <img
+                  src="assets/img/pepelegsone.png"
+                  class="card-img-top"
+                  alt="Project Preview"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column p-3">
+                  <div class="mb-2 d-flex flex-wrap gap-2">
+                    <span
+                      class="badge bg-primary-subtle text-primary rounded-pill"
+                      >Website</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >HTML</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >CSS</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >JS</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >Team Project</span
+                    >
+                  </div>
+                  <h5 class="card-title fw-bold text-dark">PPLG Class 1'27 Website</h5>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    Website of PPLG class 1'27 SMK Negeri 4 Bogor.
+                  </p>
+                  <a href="#" class="btn btn-primary fw-semibold">
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                <img
+                  src="assets/img/naboengs.png"
+                  class="card-img-top"
+                  alt="Project Preview"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column p-3">
+                  <div class="mb-2 d-flex flex-wrap gap-2">
+                    <span
+                      class="badge bg-primary-subtle text-primary rounded-pill"
+                      >Website</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >HTML</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >CSS</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >JS</span
+                    >
+                    <span
+                      class="badge bg-secondary-subtle text-secondary rounded-pill"
+                      >Team Project</span
+                    >
+                  </div>
+                  <h5 class="card-title fw-bold text-dark">Naboengs</h5>
+                  <p class="card-text text-secondary small flex-grow-1">
+                    Website of PPLG class 1'27 SMK Negeri 4 Bogor.
+                  </p>
+                  <a href="#" class="btn btn-primary fw-semibold">
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
+      </section>
     </main>
+
     <footer>
       <!-- place footer here -->
     </footer>
+
+    <style>
+      @media (min-width: 992px) {
+        .min-vh-lg-100 {
+          min-height: 100vh !important;
+        }
+      }
+    </style>
+
     <!-- Bootstrap JavaScript Bundle (includes Popper) -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
