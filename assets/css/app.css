@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Funnel+Display:wght@300..800&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 :root {
-  --bs-body-font-family: "Manrope", sans-serif;
+  --bs-body-font-family: "Funnel Display", sans-serif;
   --bs-primary: #2563EB;
   --bs-primary-border-color: #2563EB;
   --bs-primary-rgb: 37, 99, 235;
