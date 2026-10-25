@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Funnel+Display:wght@300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Funnel+Display:wght@300..800&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -8,18 +8,18 @@ html {
 
 :root {
   --bs-body-font-family: "Funnel Display", sans-serif;
-  --bs-primary: #2563EB;
-  --bs-primary-border-color: #2563EB;
+  --bs-primary: #2563eb;
+  --bs-primary-border-color: #2563eb;
   --bs-primary-rgb: 37, 99, 235;
-  --bs-link-color: #2563EB;
-  --bs-navbar-brand-color: #2563EB;
-  --bs-nav-pills-link-active-bg: #2563EB;
+  --bs-link-color: #2563eb;
+  --bs-navbar-brand-color: #2563eb;
+  --bs-nav-pills-link-active-bg: #2563eb;
 }
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #2563EB;
-  --bs-btn-border-color: #2563EB;
+  --bs-btn-bg: #2563eb;
+  --bs-btn-border-color: #2563eb;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #1d4ed8;
   --bs-btn-hover-border-color: #1d4ed8;
@@ -28,23 +28,23 @@ html {
   --bs-btn-active-bg: #1e40af;
   --bs-btn-active-border-color: #1e40af;
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #2563EB;
-  --bs-btn-disabled-border-color: #2563EB;
+  --bs-btn-disabled-bg: #2563eb;
+  --bs-btn-disabled-border-color: #2563eb;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #2563EB;
-  --bs-btn-border-color: #2563EB;
+  --bs-btn-color: #2563eb;
+  --bs-btn-border-color: #2563eb;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #2563EB;
-  --bs-btn-hover-border-color: #2563EB;
+  --bs-btn-hover-bg: #2563eb;
+  --bs-btn-hover-border-color: #2563eb;
   --bs-btn-focus-shadow-rgb: 37, 99, 235;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #2563EB;
-  --bs-btn-active-border-color: #2563EB;
-  --bs-btn-disabled-color: #2563EB;
+  --bs-btn-active-bg: #2563eb;
+  --bs-btn-active-border-color: #2563eb;
+  --bs-btn-disabled-color: #2563eb;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #2563EB;
+  --bs-btn-disabled-border-color: #2563eb;
 }
 
 .btn-outline-light {
@@ -52,7 +52,12 @@ html {
 }
 
 section {
-  scroll-margin-top: 64px;
+  scroll-margin-top: 48px;
+}
+
+#about-me,
+#tech-stack {
+  scroll-margin-top: 0px !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -61,5 +66,7 @@ section {
 }
 
 .navbar-nav .nav-link {
-  transition: font-weight 0.2s ease, color 0.2s ease;
+  transition:
+    font-weight 0.2s ease,
+    color 0.2s ease;
 }
